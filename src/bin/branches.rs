@@ -1,9 +1,7 @@
 fn main() {
-    let number = 7;
+    let condition = true;
 
-    if number < 5 {
-        println!("conditon was true");
-    } else {
-        println!("conditon was false");
-    }
+    let number = if condition { 5 } else { 6 };
+
+    println!("The value of number is: {}", number);
 }
